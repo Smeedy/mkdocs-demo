@@ -1,3 +1,8 @@
+---
+title: My Cool Features Page
+description: And this is the page description.
+---
+
 # Features
 
 In tempus sollicitudin nisi, vitae consequat neque fermentum sit amet. Fusce ac lacus eros. Duis hendrerit sed eros ut luctus. Curabitur nec turpis varius, mattis nisi sed, tincidunt felis. Aenean non augue id nisl viverra maximus eu vel ligula. In hac habitasse platea dictumst. Quisque sagittis mauris metus, quis pretium arcu vulputate a. Proin maximus dui at enim congue, vitae pretium dui pellentesque. Nunc feugiat lobortis efficitur. Vivamus mollis turpis sed ex malesuada congue.

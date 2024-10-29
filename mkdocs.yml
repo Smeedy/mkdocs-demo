@@ -1,5 +1,6 @@
 site_name: My bogus site
 site_url: https://smeedy.github.io/mkdocs-demo
+repo_url: https://github.com/smeedy/mkdocs-demo
 
 nav:
   - Home: index.md
@@ -47,10 +48,12 @@ theme:
         icon: material/lightbulb-outline
         name: Switch to light mode
 
-extra:
-  version:
-    provider: mike
+# extra:
+#   version:
+#     provider: mike
 
+plugins:
+  - social
 
 markdown_extensions:
   - admonition

@@ -1,6 +1,70 @@
-site_name: My site
+site_name: My bogus site
 site_url: https://smeedy.github.io/mkdocs-demo
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - User Guide:
+      - user-guide/index.md
+  - Developer Guide:
+      - developer-guide/index.md
+      - Development Dependencies: developer-guide/dependencies.md
+      - Command Line Interface and Package Scripts: developer-guide/scripts.md
+      - Architecture and Design Philosophy: developer-guide/design.md
+      - Feature Development: developer-guide/features.md
+      - Documentation Guidelines: developer-guide/doc-guidelines.md
+
 theme:
   name: material
+  # highlightjs: true
+  # hljs_languages:
+  #   - yaml
+  #   - typescript
+  features:
+    - content.code.copy
+    - navigation.tracking
+    - navigation.instant
+    - navigation.indexes
+    - navigation.top
+  icon:
+    logo: material/cloud-lock-outline
+    repo: fontawesome/brands/github
   palette:
-    scheme: slate
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+
+extra:
+  version:
+    provider: mike
+
+
+markdown_extensions:
+  - admonition
+  - def_list
+  - footnotes
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: ⚓︎

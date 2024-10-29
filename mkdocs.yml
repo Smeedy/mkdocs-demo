@@ -2,6 +2,7 @@ site_name: My bogus site
 site_url: https://smeedy.github.io/mkdocs-demo
 repo_url: https://github.com/smeedy/mkdocs-demo
 
+
 nav:
   - Home: index.md
   - Installation: installation.md
@@ -27,6 +28,7 @@ theme:
     - navigation.instant
     - navigation.indexes
     - navigation.top
+  favicon: img/cloud-lock.svg
   icon:
     logo: material/cloud-lock-outline
     repo: fontawesome/brands/github
